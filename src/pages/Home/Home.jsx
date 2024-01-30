@@ -1,5 +1,6 @@
 import React from 'react';
 import Banner from '../../components/Banner';
+import Clients from '../../components/Clients';
 import Navbar from '../../components/Navbar';
 
 const Home = () => {
@@ -7,7 +8,7 @@ const Home = () => {
         <div>
             <Navbar />
             <Banner />
-            <p className=''>this is home page</p>
+            <Clients />
         </div>
     );
 };
