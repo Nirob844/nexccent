@@ -44,16 +44,16 @@ const Navbar = () => {
                 }>
 
                     <li><Link to='/' className="font-medium">Home</Link></li>
-                    <li><Link to="features" className="font-medium">Features</Link></li>
-                    <li><Link to="community" className="font-medium">Community</Link></li>
-                    <li><Link to="blog" className="font-medium">Blog</Link></li>
-                    <li><Link to="pricing" className="font-medium">Pricing</Link></li>
+                    <li><Link to="/" className="font-medium">Features</Link></li>
+                    <li><Link to="/" className="font-medium">Community</Link></li>
+                    <li><Link to="/" className="font-medium">Blog</Link></li>
+                    <li><Link to="/" className="font-medium">Pricing</Link></li>
 
                     {/* Add any additional menu items here */} </ul>
 
                 <div className="flex flex-col lg:flex-row text-white items-center space-y-4 lg:space-y-0 lg:space-x-8">
                     <Link to="/">
-                        <div className='flex bg-primary text- px-4 py-3 rounded-lg font-medium mt-4 lg:mt-0'>
+                        <div className='flex bg-primary px-4 py-3 rounded-lg font-medium mt-4 lg:mt-0'>
                             <button className="">
                                 Register Now
                             </button>
