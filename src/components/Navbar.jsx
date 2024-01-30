@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { FaArrowRight } from "react-icons/fa";
 import { Link } from 'react-router-dom';
 import logo from '../assets/images/Logo (1).png';
 
@@ -42,19 +43,22 @@ const Navbar = () => {
                     } flex-col lg:flex-row space-y-4 lg:space-y-0 lg:space-x-12 lg:flex`
                 }>
 
-                    <li><Link to='/' className="text-gray-800 hover:text-blue-500 font-bold">Home</Link></li>
-                    <li><Link to="features" className="text-gray-800 hover:text-blue-500 font-bold">Features</Link></li>
-                    <li><Link to="community" className="text-gray-800 hover:text-blue-500 font-bold">Community</Link></li>
-                    <li><Link to="blog" className="text-gray-800 hover:text-blue-500 font-bold">Blog</Link></li>
-                    <li><Link to="pricing" className="text-gray-800 hover:text-blue-500 font-bold">Pricing</Link></li>
+                    <li><Link to='/' className="font-medium">Home</Link></li>
+                    <li><Link to="features" className="font-medium">Features</Link></li>
+                    <li><Link to="community" className="font-medium">Community</Link></li>
+                    <li><Link to="blog" className="font-medium">Blog</Link></li>
+                    <li><Link to="pricing" className="font-medium">Pricing</Link></li>
 
                     {/* Add any additional menu items here */} </ul>
 
-                <div className="flex flex-col lg:flex-row items-center space-y-4 lg:space-y-0 lg:space-x-8">
+                <div className="flex flex-col lg:flex-row text-white items-center space-y-4 lg:space-y-0 lg:space-x-8">
                     <Link to="/">
-                        <button className="bg-gray-800 text-white px-4 py-3 rounded-full font-bold mt-4 lg:mt-0 lg:ml-4">
-                            Register Now
-                        </button>
+                        <div className='flex bg-primary text- px-4 py-3 rounded-lg font-medium mt-4 lg:mt-0'>
+                            <button className="">
+                                Register Now
+                            </button>
+                            <FaArrowRight className='mt-1 ml-2' />
+                        </div>
                     </Link>
 
                 </div>
