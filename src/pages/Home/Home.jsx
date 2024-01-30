@@ -11,7 +11,7 @@ import Reinvent from '../../components/Reinvent';
 
 const Home = () => {
     return (
-        <div>
+        <div className=''>
             <Navbar />
             <Banner />
             <Clients />

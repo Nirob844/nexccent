@@ -7,20 +7,20 @@ const Reinvent = () => {
     return (
         <div className='bg-silver text-secondary'>
 
-            <div className='py-20 flex justify-between'>
-                <div className='mx-44'>
+            <div className='p-10 lg:py-20 lg:flex lg:justify-between'>
+                <div className='lg:mx-44'>
                     <h1 className='my-5 text-3xl'>Helping a local <br /> <span className='text-primary'>business reinvent itself</span></h1>
                     <p>We reached here with our hard work and dedication</p>
                 </div>
-                <div className='mx-44 grid grid-cols-2 gap-8'>
-                    <div className='mr-10 flex'>
+                <div className='lg:mx-44 mt-10 lg:mt-0 grid grid-cols-2 gap-8'>
+                    <div className='lg:mr-10 flex'>
                         <LuUsers2 className="text-xl text-primary my-5 mx-3" />
                         <div>
                             <p className='text-2xl'>2,245,341</p>
                             <p>Members</p>
                         </div>
                     </div>
-                    <div className='mr-10 flex'>
+                    <div className='lg:mr-10 flex'>
                         <FaRegHandshake className="text-xl text-primary my-5 mx-3" />
                         <div>
                             <p className='text-2xl'>46,328</p>
