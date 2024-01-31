@@ -4,7 +4,7 @@ import img from '../assets/images/Illustration (1).png';
 const Banner = () => {
     return (
         <div className='bg-silver'>
-            <div className='sm:p-5 lg:p-0 lg:flex lg:justify-between'>
+            <div className='p-5 lg:p-0 lg:flex lg:justify-between'>
                 <div className='mx-4 my-10 lg:mx-44 lg:my-20 lg:w-[65%] text-center lg:text-left'>
                     <h1 className='my-5 text-3xl lg:text-5xl font-semibold text-[#4D4D4D]'>Lessons and insights <br /></h1>
                     <h1 className='my-3 text-primary text-3xl lg:text-5xl font-semibold'>from 8 years</h1>

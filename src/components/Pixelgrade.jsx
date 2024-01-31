@@ -3,7 +3,7 @@ import img from '../assets/images/Frame 35.png';
 
 const Pixelgrade = () => {
     return (
-        <div className='lg:flex text-secondary'>
+        <div className='mx-10 lg:mx-0 lg:flex text-secondary'>
 
             <div className='w-full lg:w-2/5 mx-auto lg:ml-0 lg:mr-10 my-10'>
                 <img className='w-full' src={img} alt="login_image" />

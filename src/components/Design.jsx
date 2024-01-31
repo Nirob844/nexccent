@@ -2,7 +2,7 @@ import React from 'react';
 import img from '../assets/images/pana.png';
 const Design = () => {
     return (
-        <div className='lg:flex text-secondary'>
+        <div className='mx-10 lg:mx-0 lg:flex text-secondary'>
 
             <div className='w-full lg:w-2/5 mx-auto lg:ml-0 lg:mr-0 my-10'>
                 <img className='w-full' src={img} alt="login_image" />
